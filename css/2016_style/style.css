@@ -109,7 +109,7 @@ aside.clients {
     padding-bottom: 100px;
 }
 
-aside.clients,
+/*aside.clients,*/ /*It used to be this way, but it neigh now.*/
 .bg-light-gray {
     background-color: #f7f7f7;
 }
