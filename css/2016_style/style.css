@@ -344,6 +344,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    position:relative;
     height: 100vh;
     text-align: center;
     color: #fff;
@@ -361,8 +362,11 @@ header {
 }
 
 header .intro-text {
+    position:absolute;
+    left:0;
+    right:0;
     padding-top: 25vh;
-    padding-bottom: 50px;
+    padding-bottom: 25px; /*50px;*/
 }
 
 header .intro-text .intro-lead-in {
@@ -385,7 +389,7 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
-        padding-bottom: 200px;
+       /* padding-bottom: 200px;*/
     }
 
     header .intro-text .intro-lead-in {
