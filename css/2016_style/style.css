@@ -365,6 +365,7 @@ header .intro-text {
     position:absolute;
     left:0;
     right:0;
+    bottom:0;
     padding-top: 25vh;
     padding-bottom: 25px; /*50px;*/
 }
