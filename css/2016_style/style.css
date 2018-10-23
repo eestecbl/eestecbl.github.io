@@ -367,7 +367,7 @@ header .intro-text {
     right:0;
     bottom:0;
     padding-top: 25vh;
-    padding-bottom: 25px; /*50px;*/
+    padding-bottom: 35px; /*50px;*/
 }
 
 header .intro-text .intro-lead-in {
@@ -390,7 +390,7 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
-       /* padding-bottom: 200px;*/
+        padding-bottom: 75px;
     }
 
     header .intro-text .intro-lead-in {
